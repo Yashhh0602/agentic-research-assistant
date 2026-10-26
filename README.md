@@ -66,8 +66,8 @@ This scope was chosen deliberately: "how do I port CUDA to HIP" and "how does HI
 Requires Docker, Python 3.11+, and a `.env` file (copy `.env.example` and fill in).
 
 ```bash
-git clone https://github.com/Yashhh0602/agentic-research-amd-scaffold
-cd agentic-research-amd-scaffold
+git clone https://github.com/Yashhh0602/agentic-research-assistant
+cd agentic-research-assistant
 cp .env.example .env
 # edit .env: set TAVILY_API_KEY, and LLM_BACKEND=ollama for local CPU dev
 docker compose up
